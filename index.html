@@ -53,10 +53,8 @@
   </footer>
   <script>
     function setarTema() {
-      console.log('change')
       const tema = document.getElementById('tema');
       const body = document.querySelector('body');
-      console.log(tema, body)
       if (body.classList.length) 
          body.classList.remove(body.classList[0])
       body.classList.add(tema.value)
