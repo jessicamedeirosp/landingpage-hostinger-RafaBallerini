@@ -11,13 +11,23 @@
 
 <body>
   <header class="cabecalho">
+    <span class="icon-menu" onClick="abriMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </span>
     <img class="cabecalho-imagem" src="logo.svg" alt="Logo da comunidade Ballerini">
     <nav class="cabecalho-menu">
+      <p class="titulo-menu">Menu <span class="fechar-menu" onClick="abriMenu()">x</span></p>
       <a class="cabecalho-menu-item" href="https://discord.gg/wagxzStdcR">Comunidade Ballerini</a>
       <a class="cabecalho-menu-item">Tutorial</a>
       <a class="cabecalho-menu-item">Open Source</a>
       <a class="cabecalho-menu-item">Comandos</a>
-    </nav>
+    </nav>   
+    <select id="tema" onChange="setarTema()">
+      <option value="dark">Dark</option>    
+      <option value="" selected>Hostinger</option>
+    </select>
   </header>
 
   <main class="conteudo">
@@ -41,6 +51,21 @@
   <footer class="rodape">
     <img class="rodape-imagem" src="ballerini.svg">
   </footer>
+  <script>
+    function setarTema() {
+      console.log('change')
+      const tema = document.getElementById('tema');
+      const body = document.querySelector('body');
+      console.log(tema, body)
+      if (body.classList.length) 
+         body.classList.remove(body.classList[0])
+      body.classList.add(tema.value)
+    }
+    function abriMenu() {
+      const menu = document.querySelector('.cabecalho-menu');
+      menu.classList.toggle('aberto')
+    }
+  </script>
 </body>
 
 </html>
