@@ -12,16 +12,16 @@ Link https://www.youtube.com/watch?v=llF6vD-RljE
 ## Criando Temas
   
 
-![versão dark]('./versaodark.png')
+![versão dark](versaodark.png)
   
 
-![versão dark]('./versaohostinger.png')
+![versão dark](versaohostinger.png)
 
   
 
 # Criando uma versão mobile
 
-![versão mobile]('./versaomobile.png)
+![versão mobile](versaomobile.png)
   
 
-![versão menu aberto mobile]('./menuversaomobile.png)
+![versão menu aberto mobile](menuversaomobile.png)
