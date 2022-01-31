@@ -1,8 +1,9 @@
 
 # Projeto Landing Page (Rafa Ballerini)
 
-Projeto desenvolvido através do vídeo da Rafa Ballerini 
-Link https://www.youtube.com/watch?v=llF6vD-RljE
+Projeto desenvolvido utilizando HTML, CSS e JS, junto a Rafa Ballerini ([video](https://www.youtube.com/watch?v=llF6vD-RljE)). Além das implementações feita através do video, também customizei e implementei algumas outras funcionalidades, como thema e uma versão mobile!
+
+Você pode visualizar o projeto através deste link [Landing Page Customizada](https://jessicamedeirosp.github.io/landingpage-hostinger-RafaBallerini/)
 
   
 
